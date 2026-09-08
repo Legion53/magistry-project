@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: postgres:17.11-alpine3.24
+    container_name: thesis-postgres
+    environment:
+      POSTGRES_DB: thesis_inventory
+      POSTGRES_USER: thesis
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U thesis -d thesis_inventory"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  postgres-data:
