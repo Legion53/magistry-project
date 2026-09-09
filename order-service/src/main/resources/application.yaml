@@ -5,15 +5,13 @@ spring:
   application:
     name: order-service
 
-inventory:
-  base-url: ${INVENTORY_BASE_URL:http://localhost:8081}
-
 management:
   endpoints:
     web:
       exposure:
         include: health,info
-  endpoint:
-    health:
-      probes:
-        enabled: true
+
+inventory:
+  base-url: ${INVENTORY_BASE_URL:http://localhost:8081}
+  connect-timeout: 1s
+  read-timeout: 2s
