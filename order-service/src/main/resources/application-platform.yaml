@@ -1,0 +1,9 @@
+spring:
+  threads:
+    virtual:
+      enabled: false
+
+server:
+  tomcat:
+    threads:
+      max: 200
