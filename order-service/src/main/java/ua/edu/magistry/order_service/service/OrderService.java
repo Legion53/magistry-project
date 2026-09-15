@@ -18,7 +18,7 @@ public class OrderService {
     private final InventoryClient inventoryClient;
 
     public OrderResponse createOrder(CreateOrderRequest request) {
-        InventoryResponse inventory = inventoryClient.getInventory(request.productId());
+        InventoryResponse inventory = inventoryClient.getByProductId(request.productId());
 
         OrderStatus status = request.quantity() <= inventory.quantity()
                 ? OrderStatus.ACCEPTED

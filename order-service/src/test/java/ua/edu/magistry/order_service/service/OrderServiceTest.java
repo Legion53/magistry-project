@@ -21,10 +21,11 @@ class OrderServiceTest {
 
     @Test
     void acceptsOrderWhenInventoryIsSufficient() {
-        when(inventoryClient.getInventory(1L))
+        when(inventoryClient.getByProductId(1L))
                 .thenReturn(new InventoryResponse(1L, "Product 1", 100));
 
-        OrderResponse response = orderService.createOrder(new CreateOrderRequest(1L, 2));
+        OrderResponse response =
+                orderService.createOrder(new CreateOrderRequest(1L, 2));
 
         assertEquals(OrderStatus.ACCEPTED, response.status());
         assertEquals(1L, response.productId());
@@ -34,10 +35,11 @@ class OrderServiceTest {
 
     @Test
     void rejectsOrderWhenInventoryIsInsufficient() {
-        when(inventoryClient.getInventory(1L))
+        when(inventoryClient.getByProductId(1L))
                 .thenReturn(new InventoryResponse(1L, "Product 1", 100));
 
-        OrderResponse response = orderService.createOrder(new CreateOrderRequest(1L, 101));
+        OrderResponse response =
+                orderService.createOrder(new CreateOrderRequest(1L, 101));
 
         assertEquals(OrderStatus.REJECTED, response.status());
         assertEquals(101, response.requestedQuantity());
@@ -46,12 +48,17 @@ class OrderServiceTest {
 
     @Test
     void propagatesExceptionWhenInventoryServiceIsUnavailable() {
-        RestClientException unavailable = new RestClientException("inventory-service is unavailable");
-        when(inventoryClient.getInventory(1L)).thenThrow(unavailable);
+        RestClientException unavailable =
+                new RestClientException("inventory-service is unavailable");
+
+        when(inventoryClient.getByProductId(1L))
+                .thenThrow(unavailable);
 
         RestClientException exception = assertThrows(
                 RestClientException.class,
-                () -> orderService.createOrder(new CreateOrderRequest(1L, 2))
+                () -> orderService.createOrder(
+                        new CreateOrderRequest(1L, 2)
+                )
         );
 
         assertSame(unavailable, exception);

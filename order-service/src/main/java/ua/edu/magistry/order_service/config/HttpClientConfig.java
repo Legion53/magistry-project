@@ -9,24 +9,23 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestClient;
 
-@Configuration(proxyBeanMethods = false)
+@Configuration
 public class HttpClientConfig {
 
     @Bean
-    RestClient inventoryRestClient(
+    RestClient restClient(
+            RestClient.Builder builder,
             @Value("${inventory.base-url}") String baseUrl,
-            @Value("${inventory.connect-timeout}") Duration connectTimeout,
-            @Value("${inventory.read-timeout}") Duration readTimeout
-    ) {
+            @Value("${inventory.connect-timeout:1s}") Duration connectTimeout,
+            @Value("${inventory.read-timeout:2s}") Duration readTimeout) {
+
         HttpClientSettings settings = HttpClientSettings.defaults()
                 .withConnectTimeout(connectTimeout)
                 .withReadTimeout(readTimeout);
 
-        return RestClient.builder()
+        return builder
                 .baseUrl(baseUrl)
-                .requestFactory(
-                        ClientHttpRequestFactoryBuilder.detect().build(settings)
-                )
+                .requestFactory(ClientHttpRequestFactoryBuilder.detect().build(settings))
                 .build();
     }
 }

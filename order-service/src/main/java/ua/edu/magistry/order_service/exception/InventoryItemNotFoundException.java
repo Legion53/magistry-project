@@ -2,7 +2,7 @@ package ua.edu.magistry.order_service.exception;
 
 public class InventoryItemNotFoundException extends RuntimeException {
 
-    public InventoryItemNotFoundException(long productId, Throwable cause) {
-        super("Product with productId=" + productId + " was not found", cause);
+    public InventoryItemNotFoundException(Long productId) {
+        super("Inventory item not found for productId=" + productId);
     }
 }

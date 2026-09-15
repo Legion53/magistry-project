@@ -1,20 +1,98 @@
+name: thesis-project
+
 services:
+
   postgres:
     image: postgres:17.11-alpine3.24
+
     container_name: thesis-postgres
+
     environment:
       POSTGRES_DB: thesis_inventory
       POSTGRES_USER: thesis
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+
     ports:
       - "5432:5432"
+
     volumes:
       - postgres-data:/var/lib/postgresql/data
+
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U thesis -d thesis_inventory"]
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -U thesis -d thesis_inventory"
+        ]
       interval: 5s
       timeout: 3s
       retries: 20
 
+
+  otel-collector:
+    image: otel/opentelemetry-collector-contrib:0.160.0
+
+    container_name: thesis-otel-collector
+
+    command:
+      - "--config=/etc/otelcol-contrib/config.yaml"
+
+    volumes:
+      - ./otel/collector-config.yaml:/etc/otelcol-contrib/config.yaml:ro
+
+    ports:
+      - "4317:4317"
+      - "4318:4318"
+
+    depends_on:
+      - tempo
+
+
+  tempo:
+    image: grafana/tempo:3.0.0
+
+    container_name: thesis-tempo
+
+    command:
+      - "-target=all"
+      - "-config.file=/etc/tempo.yaml"
+
+    volumes:
+      - ./tempo/tempo.yaml:/etc/tempo.yaml:ro
+      - tempo-data:/var/tempo
+
+    ports:
+      - "3200:3200"
+
+    restart: unless-stopped
+
+
+  grafana:
+    image: grafana/grafana:13.2.1
+
+    container_name: thesis-grafana
+
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: admin
+
+    ports:
+      - "3000:3000"
+
+    volumes:
+      - grafana-data:/var/lib/grafana
+      - ./grafana/provisioning:/etc/grafana/provisioning:ro
+
+    depends_on:
+      - tempo
+
+    restart: unless-stopped
+
+
 volumes:
+
   postgres-data:
+
+  tempo-data:
+
+  grafana-data:
