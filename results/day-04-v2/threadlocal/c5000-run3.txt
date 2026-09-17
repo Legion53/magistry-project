@@ -1,0 +1,47 @@
+﻿Summary:
+  Success rate:	100.00%
+  Total:	30.2002 sec
+  Slowest:	3.1100 sec
+  Fastest:	0.0002 sec
+  Average:	0.1488 sec
+  Requests/sec:	32851.9917
+
+  Total data:	199.71 MiB
+  Size/request:	212 B
+  Size/sec:	6.61 MiB
+
+Response time histogram:
+  0.000 sec [1]      |
+  0.311 sec [882915] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.622 sec [5644]   |
+  0.933 sec [9803]   |
+  1.244 sec [45089]  |■
+  1.555 sec [42819]  |■
+  1.866 sec [484]    |
+  2.177 sec [146]    |
+  2.488 sec [330]    |
+  2.799 sec [276]    |
+  3.110 sec [6]      |
+
+Response time distribution:
+  10.00% in 0.0005 sec
+  25.00% in 0.0042 sec
+  50.00% in 0.0146 sec
+  75.00% in 0.0565 sec
+  90.00% in 0.6285 sec
+  95.00% in 1.2185 sec
+  99.00% in 1.3997 sec
+  99.90% in 1.6972 sec
+  99.99% in 2.6578 sec
+
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.2596 sec, 0.0002 sec, 2.0406 sec
+  DNS-lookup:	0.0000 sec, 0.0000 sec, 0.0025 sec
+
+Status code distribution:
+  [200] 987513 responses
+
+Error distribution:
+  [4624] aborted due to deadline
+  [1] An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full. (os error 10055)

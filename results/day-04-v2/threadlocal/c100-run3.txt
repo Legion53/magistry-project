@@ -1,0 +1,47 @@
+﻿Summary:
+  Success rate:	99.74%
+  Total:	30016.6181 ms
+  Slowest:	62.9076 ms
+  Fastest:	0.1779 ms
+  Average:	3.0055 ms
+  Requests/sec:	33084.0735
+
+  Total data:	200.30 MiB
+  Size/request:	212 B
+  Size/sec:	6.67 MiB
+
+Response time histogram:
+   0.178 ms [1]      |
+   6.451 ms [945857] |■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  12.724 ms [19439]  |
+  18.997 ms [13327]  |
+  25.270 ms [7422]   |
+  31.543 ms [3096]   |
+  37.816 ms [800]    |
+  44.089 ms [308]    |
+  50.362 ms [116]    |
+  56.635 ms [21]     |
+  62.908 ms [27]     |
+
+Response time distribution:
+  10.00% in 0.4953 ms
+  25.00% in 1.8284 ms
+  50.00% in 2.6797 ms
+  75.00% in 3.2109 ms
+  90.00% in 4.1022 ms
+  95.00% in 5.8423 ms
+  99.00% in 20.0648 ms
+  99.90% in 33.1427 ms
+  99.99% in 45.4044 ms
+
+
+Details (average, fastest, slowest):
+  DNS+dialup:	1.9351 ms, 0.1805 ms, 27.5994 ms
+  DNS-lookup:	0.0116 ms, 0.0031 ms, 0.4285 ms
+
+Status code distribution:
+  [200] 990414 responses
+
+Error distribution:
+  [2564] Only one usage of each socket address (protocol/network address/port) is normally permitted. (os error 10048)
+  [94] aborted due to deadline
