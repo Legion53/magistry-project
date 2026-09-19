@@ -1,0 +1,21 @@
+spring:
+  threads:
+    virtual:
+      enabled: true
+
+  main:
+    keep-alive: true
+
+  datasource:
+    hikari:
+      maximum-pool-size: 10
+      connection-timeout: 30000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+
+experiment:
+  concurrency-limit: 10
