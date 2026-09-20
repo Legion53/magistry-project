@@ -1,0 +1,44 @@
+spring:
+  threads:
+    virtual:
+      enabled: true
+
+  main:
+    keep-alive: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,circuitbreakers,circuitbreakerevents,retries,retryevents
+
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+resilience4j:
+  retry:
+    instances:
+      inventoryService:
+        maxAttempts: 3
+        waitDuration: 100ms
+        enableExponentialBackoff: true
+        exponentialBackoffMultiplier: 2
+        retryExceptions:
+          - org.springframework.web.client.RestClientException
+        ignoreExceptions:
+          - ua.edu.magistry.order_service.exception.InventoryItemNotFoundException
+          - io.github.resilience4j.circuitbreaker.CallNotPermittedException
+
+  circuitbreaker:
+    instances:
+      inventoryService:
+        slidingWindowType: COUNT_BASED
+        slidingWindowSize: 10
+        minimumNumberOfCalls: 5
+        failureRateThreshold: 50
+        waitDurationInOpenState: 30s
+        permittedNumberOfCallsInHalfOpenState: 2
+        ignoreExceptions:
+          - ua.edu.magistry.order_service.exception.InventoryItemNotFoundException

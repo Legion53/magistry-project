@@ -27,10 +27,14 @@ public class OrderController {
     ) {
         OrderResponse response = orderService.createOrder(request);
 
-        HttpStatus httpStatus = response.status() == OrderStatus.REJECTED
-                ? HttpStatus.CONFLICT
-                : HttpStatus.OK;
+        HttpStatus httpStatus = switch (response.status()) {
+            case ACCEPTED -> HttpStatus.OK;
+            case REJECTED -> HttpStatus.CONFLICT;
+            case TEMPORARILY_UNAVAILABLE -> HttpStatus.SERVICE_UNAVAILABLE;
+        };
 
-        return ResponseEntity.status(httpStatus).body(response);
+        return ResponseEntity
+                .status(httpStatus)
+                .body(response);
     }
 }
