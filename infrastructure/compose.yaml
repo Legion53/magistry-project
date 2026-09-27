@@ -16,6 +16,7 @@ services:
 
     restart: unless-stopped
 
+
   postgres:
     image: postgres:17.11-alpine3.24
 
@@ -103,6 +104,28 @@ services:
     restart: unless-stopped
 
 
+  prometheus:
+    image: prom/prometheus:v3.5.0
+
+    container_name: thesis-prometheus
+
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+      - "--storage.tsdb.path=/prometheus"
+
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus-data:/prometheus
+
+    ports:
+      - "9090:9090"
+
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+    restart: unless-stopped
+
+
 volumes:
 
   postgres-data:
@@ -110,3 +133,5 @@ volumes:
   tempo-data:
 
   grafana-data:
+
+  prometheus-data:
