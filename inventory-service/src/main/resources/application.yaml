@@ -17,34 +17,34 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,info,metrics
+        include: health,info,metrics,prometheus
+
   endpoint:
     health:
       probes:
         enabled: true
+  metrics:
+    distribution:
+      percentiles-histogram:
+        http.server.requests: true
+        http.client.requests: true
 
 otel:
-  # Keep every trace in the thesis experiment.
   traces:
     sampler: always_on
     exporter: otlp
 
-  # The Spring Boot starter uses HTTP/protobuf by default.
-  # We explicitly choose gRPC because Collector:4317 is OTLP/gRPC.
   exporter:
     otlp:
       protocol: grpc
       endpoint: ${OTEL_EXPORTER_OTLP_ENDPOINT:http://localhost:4317}
 
-  # Day 3 is about tracing only.
-  # Do not send metrics/logs to the Collector yet.
   metrics:
     exporter: none
 
   logs:
     exporter: none
 
-  # Explicitly keep the important instrumentations enabled.
   instrumentation:
     jdbc:
       enabled: true
