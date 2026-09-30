@@ -1,0 +1,763 @@
+# HELP application_ready_time_seconds Time taken for the application to be ready to service requests
+# TYPE application_ready_time_seconds gauge
+application_ready_time_seconds{main_application_class="ua.edu.magistry.order_service.OrderServiceApplication"} 5.619
+# HELP application_started_time_seconds Time taken to start the application
+# TYPE application_started_time_seconds gauge
+application_started_time_seconds{main_application_class="ua.edu.magistry.order_service.OrderServiceApplication"} 5.553
+# HELP disk_free_bytes Usable space for path
+# TYPE disk_free_bytes gauge
+disk_free_bytes{path="F:\\magistry-project\\order-service\\."} 5.19150137344E11
+# HELP disk_total_bytes Total space for path
+# TYPE disk_total_bytes gauge
+disk_total_bytes{path="F:\\magistry-project\\order-service\\."} 7.86431995904E11
+# HELP http_client_requests_active_seconds  
+# TYPE http_client_requests_active_seconds histogram
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="120.0"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="137.438953471"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="160.345445716"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="183.251937961"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="206.158430206"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="229.064922451"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="251.971414696"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="274.877906944"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="366.503875925"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="458.129844906"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="549.755813887"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="641.381782868"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="733.007751849"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="824.63372083"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="916.259689811"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="1007.885658792"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="1099.511627776"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="1466.015503701"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="1832.519379626"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="2199.023255551"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="2565.527131476"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="2932.031007401"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="3298.534883326"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="3665.038759251"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="4031.542635176"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="4398.046511104"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="5864.062014805"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="7200.0"} 0
+http_client_requests_active_seconds_bucket{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="+Inf"} 0
+# HELP http_client_requests_active_seconds_gcount  
+# TYPE http_client_requests_active_seconds_gcount gauge
+http_client_requests_active_seconds_gcount{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}"} 0
+# HELP http_client_requests_active_seconds_gsum  
+# TYPE http_client_requests_active_seconds_gsum gauge
+http_client_requests_active_seconds_gsum{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}"} 0.0
+# HELP http_client_requests_active_seconds_max  
+# TYPE http_client_requests_active_seconds_max gauge
+http_client_requests_active_seconds_max{client_name="localhost",exception="none",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}"} 0.0
+# HELP http_client_requests_seconds  
+# TYPE http_client_requests_seconds histogram
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.001"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.001048576"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.001398101"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.001747626"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.002097151"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.002446676"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.002796201"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.003145726"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.003495251"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.003844776"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.004194304"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.005592405"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.006990506"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.008388607"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.009786708"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.011184809"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.01258291"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.013981011"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.015379112"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.016777216"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.022369621"} 2
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.027962026"} 5
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.033554431"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.039146836"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.044739241"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.050331646"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.055924051"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.061516456"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.067108864"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.089478485"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.111848106"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.134217727"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.156587348"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.178956969"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.20132659"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.223696211"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.246065832"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.268435456"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.357913941"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.447392426"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.536870911"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.626349396"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.715827881"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.805306366"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.894784851"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="0.984263336"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="1.073741824"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="1.431655765"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="1.789569706"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="2.147483647"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="2.505397588"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="2.863311529"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="3.22122547"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="3.579139411"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="3.937053352"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="4.294967296"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="5.726623061"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="7.158278826"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="8.589934591"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="10.021590356"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="11.453246121"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="12.884901886"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="14.316557651"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="15.748213416"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="17.179869184"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="22.906492245"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="28.633115306"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="30.0"} 6
+http_client_requests_seconds_bucket{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}",le="+Inf"} 6
+http_client_requests_seconds_count{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}"} 6
+http_client_requests_seconds_sum{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}"} 0.1439267
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.001"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.001048576"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.001398101"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.001747626"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.002097151"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.002446676"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.002796201"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.003145726"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.003495251"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.003844776"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.004194304"} 0
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.005592405"} 138
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.006990506"} 741
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.008388607"} 872
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.009786708"} 887
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.011184809"} 896
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.01258291"} 911
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.013981011"} 924
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.015379112"} 946
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.016777216"} 979
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.022369621"} 1098
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.027962026"} 1229
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.033554431"} 1293
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.039146836"} 1330
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.044739241"} 1349
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.050331646"} 1357
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.055924051"} 1362
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.061516456"} 1367
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.067108864"} 1367
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.089478485"} 1373
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.111848106"} 1378
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.134217727"} 1381
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.156587348"} 1381
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.178956969"} 1384
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.20132659"} 1384
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.223696211"} 1384
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.246065832"} 1386
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.268435456"} 1388
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.357913941"} 1395
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.447392426"} 1397
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.536870911"} 1399
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.626349396"} 1401
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.715827881"} 1402
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.805306366"} 1404
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.894784851"} 1406
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="0.984263336"} 1408
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="1.073741824"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="1.431655765"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="1.789569706"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="2.147483647"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="2.505397588"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="2.863311529"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="3.22122547"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="3.579139411"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="3.937053352"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="4.294967296"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="5.726623061"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="7.158278826"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="8.589934591"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="10.021590356"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="11.453246121"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="12.884901886"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="14.316557651"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="15.748213416"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="17.179869184"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="22.906492245"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="28.633115306"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="30.0"} 1696
+http_client_requests_seconds_bucket{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}",le="+Inf"} 1696
+http_client_requests_seconds_count{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}"} 1696
+http_client_requests_seconds_sum{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}"} 321.3182391
+# HELP http_client_requests_seconds_max  
+# TYPE http_client_requests_seconds_max gauge
+http_client_requests_seconds_max{client_name="localhost",error="ResourceAccessException",exception="ResourceAccessException",method="GET",outcome="UNKNOWN",status="CLIENT_ERROR",uri="/inventory/{productId}"} 0.028786
+http_client_requests_seconds_max{client_name="localhost",error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/inventory/{productId}"} 1.0268175
+# HELP http_server_requests_active_seconds  
+# TYPE http_server_requests_active_seconds histogram
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="120.0"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="137.438953471"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="160.345445716"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="183.251937961"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="206.158430206"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="229.064922451"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="251.971414696"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="274.877906944"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="366.503875925"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="458.129844906"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="549.755813887"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="641.381782868"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="733.007751849"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="824.63372083"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="916.259689811"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="1007.885658792"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="1099.511627776"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="1466.015503701"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="1832.519379626"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="2199.023255551"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="2565.527131476"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="2932.031007401"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="3298.534883326"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="3665.038759251"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="4031.542635176"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="4398.046511104"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="5864.062014805"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="7200.0"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN",le="+Inf"} 1
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="120.0"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="137.438953471"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="160.345445716"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="183.251937961"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="206.158430206"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="229.064922451"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="251.971414696"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="274.877906944"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="366.503875925"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="458.129844906"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="549.755813887"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="641.381782868"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="733.007751849"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="824.63372083"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="916.259689811"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="1007.885658792"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="1099.511627776"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="1466.015503701"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="1832.519379626"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="2199.023255551"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="2565.527131476"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="2932.031007401"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="3298.534883326"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="3665.038759251"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="4031.542635176"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="4398.046511104"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="5864.062014805"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="7200.0"} 0
+http_server_requests_active_seconds_bucket{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN",le="+Inf"} 0
+# HELP http_server_requests_active_seconds_gcount  
+# TYPE http_server_requests_active_seconds_gcount gauge
+http_server_requests_active_seconds_gcount{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN"} 1
+http_server_requests_active_seconds_gcount{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN"} 0
+# HELP http_server_requests_active_seconds_gsum  
+# TYPE http_server_requests_active_seconds_gsum gauge
+http_server_requests_active_seconds_gsum{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN"} 0.9120434
+http_server_requests_active_seconds_gsum{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN"} 0.0
+# HELP http_server_requests_active_seconds_max  
+# TYPE http_server_requests_active_seconds_max gauge
+http_server_requests_active_seconds_max{exception="none",method="GET",outcome="SUCCESS",status="200",uri="UNKNOWN"} 0.9120495
+http_server_requests_active_seconds_max{exception="none",method="POST",outcome="SUCCESS",status="200",uri="UNKNOWN"} 0.0
+# HELP http_server_requests_seconds  
+# TYPE http_server_requests_seconds histogram
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.001"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.001048576"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.001398101"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.001747626"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.002097151"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.002446676"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.002796201"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.003145726"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.003495251"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.003844776"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.004194304"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.005592405"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.006990506"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.008388607"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.009786708"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.011184809"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.01258291"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.013981011"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.015379112"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.016777216"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.022369621"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.027962026"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.033554431"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.039146836"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.044739241"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.050331646"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.055924051"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.061516456"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.067108864"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.089478485"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.111848106"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.134217727"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.156587348"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.178956969"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.20132659"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.223696211"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.246065832"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.268435456"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.357913941"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.447392426"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.536870911"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.626349396"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.715827881"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.805306366"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.894784851"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="0.984263336"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="1.073741824"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="1.431655765"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="1.789569706"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="2.147483647"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="2.505397588"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="2.863311529"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="3.22122547"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="3.579139411"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="3.937053352"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="4.294967296"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="5.726623061"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="7.158278826"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="8.589934591"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="10.021590356"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="11.453246121"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="12.884901886"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="14.316557651"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="15.748213416"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="17.179869184"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="22.906492245"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="28.633115306"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="30.0"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health",le="+Inf"} 1
+http_server_requests_seconds_count{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health"} 1
+http_server_requests_seconds_sum{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health"} 0.1481665
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.001"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.001048576"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.001398101"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.001747626"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.002097151"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.002446676"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.002796201"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.003145726"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.003495251"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.003844776"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.004194304"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.005592405"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.006990506"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.008388607"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.009786708"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.011184809"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.01258291"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.013981011"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.015379112"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.016777216"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.022369621"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.027962026"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.033554431"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.039146836"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.044739241"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.050331646"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.055924051"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.061516456"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.067108864"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.089478485"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.111848106"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.134217727"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.156587348"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.178956969"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.20132659"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.223696211"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.246065832"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.268435456"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.357913941"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.447392426"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.536870911"} 1
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.626349396"} 13
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.715827881"} 36
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.805306366"} 44
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.894784851"} 46
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="0.984263336"} 53
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="1.073741824"} 55
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="1.431655765"} 63
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="1.789569706"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="2.147483647"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="2.505397588"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="2.863311529"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="3.22122547"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="3.579139411"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="3.937053352"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="4.294967296"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="5.726623061"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="7.158278826"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="8.589934591"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="10.021590356"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="11.453246121"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="12.884901886"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="14.316557651"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="15.748213416"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="17.179869184"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="22.906492245"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="28.633115306"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="30.0"} 65
+http_server_requests_seconds_bucket{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus",le="+Inf"} 65
+http_server_requests_seconds_count{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus"} 65
+http_server_requests_seconds_sum{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus"} 52.5947554
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.001"} 271
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.001048576"} 293
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.001398101"} 446
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.001747626"} 529
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.002097151"} 583
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.002446676"} 592
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.002796201"} 594
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.003145726"} 595
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.003495251"} 595
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.003844776"} 597
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.004194304"} 599
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.005592405"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.006990506"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.008388607"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.009786708"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.011184809"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.01258291"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.013981011"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.015379112"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.016777216"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.022369621"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.027962026"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.033554431"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.039146836"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.044739241"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.050331646"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.055924051"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.061516456"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.067108864"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.089478485"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.111848106"} 600
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.134217727"} 601
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.156587348"} 602
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.178956969"} 602
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.20132659"} 602
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.223696211"} 602
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.246065832"} 602
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.268435456"} 602
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.357913941"} 602
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.447392426"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.536870911"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.626349396"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.715827881"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.805306366"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.894784851"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="0.984263336"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="1.073741824"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="1.431655765"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="1.789569706"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="2.147483647"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="2.505397588"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="2.863311529"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="3.22122547"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="3.579139411"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="3.937053352"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="4.294967296"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="5.726623061"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="7.158278826"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="8.589934591"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="10.021590356"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="11.453246121"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="12.884901886"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="14.316557651"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="15.748213416"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="17.179869184"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="22.906492245"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="28.633115306"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="30.0"} 604
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders",le="+Inf"} 604
+http_server_requests_seconds_count{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders"} 604
+http_server_requests_seconds_sum{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders"} 1.7066005
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.001"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.001048576"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.001398101"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.001747626"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.002097151"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.002446676"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.002796201"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.003145726"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.003495251"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.003844776"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.004194304"} 0
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.005592405"} 6
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.006990506"} 175
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.008388607"} 733
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.009786708"} 861
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.011184809"} 881
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.01258291"} 893
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.013981011"} 909
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.015379112"} 917
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.016777216"} 935
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.022369621"} 1040
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.027962026"} 1156
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.033554431"} 1255
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.039146836"} 1298
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.044739241"} 1328
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.050331646"} 1343
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.055924051"} 1353
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.061516456"} 1362
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.067108864"} 1365
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.089478485"} 1370
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.111848106"} 1370
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.134217727"} 1371
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.156587348"} 1371
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.178956969"} 1372
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.20132659"} 1372
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.223696211"} 1372
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.246065832"} 1381
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.268435456"} 1383
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.357913941"} 1388
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.447392426"} 1395
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.536870911"} 1399
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.626349396"} 1401
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.715827881"} 1402
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.805306366"} 1404
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.894784851"} 1406
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="0.984263336"} 1408
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="1.073741824"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="1.431655765"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="1.789569706"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="2.147483647"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="2.505397588"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="2.863311529"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="3.22122547"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="3.579139411"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="3.937053352"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="4.294967296"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="5.726623061"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="7.158278826"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="8.589934591"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="10.021590356"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="11.453246121"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="12.884901886"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="14.316557651"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="15.748213416"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="17.179869184"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="22.906492245"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="28.633115306"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="30.0"} 1696
+http_server_requests_seconds_bucket{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders",le="+Inf"} 1696
+http_server_requests_seconds_count{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders"} 1696
+http_server_requests_seconds_sum{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders"} 327.34639
+# HELP http_server_requests_seconds_max  
+# TYPE http_server_requests_seconds_max gauge
+http_server_requests_seconds_max{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/health"} 0.1481665
+http_server_requests_seconds_max{error="none",exception="none",method="GET",outcome="SUCCESS",status="200",uri="/actuator/prometheus"} 1.5215641
+http_server_requests_seconds_max{error="none",exception="none",method="POST",outcome="SERVER_ERROR",status="503",uri="/orders"} 0.3700903
+http_server_requests_seconds_max{error="none",exception="none",method="POST",outcome="SUCCESS",status="200",uri="/orders"} 1.0287113
+# HELP jvm_info JVM version info
+# TYPE jvm_info gauge
+jvm_info{runtime="OpenJDK Runtime Environment",vendor="Eclipse Adoptium",version="25.0.4.1+1-LTS"} 1
+# HELP jvm_buffer_count_buffers An estimate of the number of buffers in the pool
+# TYPE jvm_buffer_count_buffers gauge
+jvm_buffer_count_buffers{id="direct"} 0.0
+jvm_buffer_count_buffers{id="mapped"} 0.0
+jvm_buffer_count_buffers{id="mapped - 'non-volatile memory'"} 0.0
+# HELP jvm_buffer_memory_used_bytes An estimate of the memory that the Java virtual machine is using for this buffer pool
+# TYPE jvm_buffer_memory_used_bytes gauge
+jvm_buffer_memory_used_bytes{id="direct"} 0.0
+jvm_buffer_memory_used_bytes{id="mapped"} 0.0
+jvm_buffer_memory_used_bytes{id="mapped - 'non-volatile memory'"} 0.0
+# HELP jvm_buffer_total_capacity_bytes An estimate of the total capacity of the buffers in this pool
+# TYPE jvm_buffer_total_capacity_bytes gauge
+jvm_buffer_total_capacity_bytes{id="direct"} 0.0
+jvm_buffer_total_capacity_bytes{id="mapped"} 0.0
+jvm_buffer_total_capacity_bytes{id="mapped - 'non-volatile memory'"} 0.0
+# HELP jvm_classes_loaded_classes The number of classes that are currently loaded in the Java virtual machine
+# TYPE jvm_classes_loaded_classes gauge
+jvm_classes_loaded_classes 14806.0
+# HELP jvm_classes_loaded_count_classes_total The number of classes loaded in the Java virtual machine
+# TYPE jvm_classes_loaded_count_classes_total counter
+jvm_classes_loaded_count_classes_total 15034.0
+# HELP jvm_classes_unloaded_classes_total The number of classes unloaded in the Java virtual machine
+# TYPE jvm_classes_unloaded_classes_total counter
+jvm_classes_unloaded_classes_total 228.0
+# HELP jvm_compilation_time_ms_total The approximate accumulated elapsed time spent in compilation
+# TYPE jvm_compilation_time_ms_total counter
+jvm_compilation_time_ms_total{compiler="HotSpot 64-Bit Tiered Compilers"} 2334.0
+# HELP jvm_gc_concurrent_phase_time_seconds Time spent in concurrent phase
+# TYPE jvm_gc_concurrent_phase_time_seconds summary
+jvm_gc_concurrent_phase_time_seconds_count{action="end of concurrent GC pause",cause="No GC",gc="G1 Concurrent GC"} 16
+jvm_gc_concurrent_phase_time_seconds_sum{action="end of concurrent GC pause",cause="No GC",gc="G1 Concurrent GC"} 0.032
+# HELP jvm_gc_concurrent_phase_time_seconds_max Time spent in concurrent phase
+# TYPE jvm_gc_concurrent_phase_time_seconds_max gauge
+jvm_gc_concurrent_phase_time_seconds_max{action="end of concurrent GC pause",cause="No GC",gc="G1 Concurrent GC"} 0.01
+# HELP jvm_gc_live_data_size_bytes Size of long-lived heap memory pool after reclamation
+# TYPE jvm_gc_live_data_size_bytes gauge
+jvm_gc_live_data_size_bytes 3.2759608E7
+# HELP jvm_gc_max_data_size_bytes Max size of long-lived heap memory pool
+# TYPE jvm_gc_max_data_size_bytes gauge
+jvm_gc_max_data_size_bytes 8.501854208E9
+# HELP jvm_gc_memory_allocated_bytes_total Incremented for an increase in the size of the (young) heap memory pool after one GC to before the next
+# TYPE jvm_gc_memory_allocated_bytes_total counter
+jvm_gc_memory_allocated_bytes_total 1.21634816E9
+# HELP jvm_gc_memory_promoted_bytes_total Count of positive increases in the size of the old generation memory pool before GC to after GC
+# TYPE jvm_gc_memory_promoted_bytes_total counter
+jvm_gc_memory_promoted_bytes_total 6322224.0
+# HELP jvm_gc_overhead An approximation of the percent of CPU time used by GC activities over the last lookback period or since monitoring began, whichever is shorter, in the range [0..1]
+# TYPE jvm_gc_overhead gauge
+jvm_gc_overhead 4.248490446289423E-4
+# HELP jvm_gc_pause_seconds Time spent in GC pause
+# TYPE jvm_gc_pause_seconds summary
+jvm_gc_pause_seconds_count{action="end of minor GC",cause="CodeCache GC Threshold",gc="G1 Young Generation"} 1
+jvm_gc_pause_seconds_sum{action="end of minor GC",cause="CodeCache GC Threshold",gc="G1 Young Generation"} 0.002
+jvm_gc_pause_seconds_count{action="end of minor GC",cause="G1 Evacuation Pause",gc="G1 Young Generation"} 23
+jvm_gc_pause_seconds_sum{action="end of minor GC",cause="G1 Evacuation Pause",gc="G1 Young Generation"} 0.04
+jvm_gc_pause_seconds_count{action="end of minor GC",cause="Metadata GC Threshold",gc="G1 Young Generation"} 1
+jvm_gc_pause_seconds_sum{action="end of minor GC",cause="Metadata GC Threshold",gc="G1 Young Generation"} 0.002
+# HELP jvm_gc_pause_seconds_max Time spent in GC pause
+# TYPE jvm_gc_pause_seconds_max gauge
+jvm_gc_pause_seconds_max{action="end of minor GC",cause="CodeCache GC Threshold",gc="G1 Young Generation"} 0.002
+jvm_gc_pause_seconds_max{action="end of minor GC",cause="G1 Evacuation Pause",gc="G1 Young Generation"} 0.003
+jvm_gc_pause_seconds_max{action="end of minor GC",cause="Metadata GC Threshold",gc="G1 Young Generation"} 0.002
+# HELP jvm_memory_committed_bytes The amount of memory in bytes that is committed for the Java virtual machine to use
+# TYPE jvm_memory_committed_bytes gauge
+jvm_memory_committed_bytes{area="heap",id="G1 Eden Space"} 5.8720256E7
+jvm_memory_committed_bytes{area="heap",id="G1 Old Gen"} 4.194304E7
+jvm_memory_committed_bytes{area="heap",id="G1 Survivor Space"} 4194304.0
+jvm_memory_committed_bytes{area="nonheap",id="CodeCache"} 1.6973824E7
+jvm_memory_committed_bytes{area="nonheap",id="Compressed Class Space"} 9633792.0
+jvm_memory_committed_bytes{area="nonheap",id="Metaspace"} 6.4028672E7
+# HELP jvm_memory_max_bytes The maximum amount of memory in bytes that can be used for memory management
+# TYPE jvm_memory_max_bytes gauge
+jvm_memory_max_bytes{area="heap",id="G1 Eden Space"} -1.0
+jvm_memory_max_bytes{area="heap",id="G1 Old Gen"} 8.501854208E9
+jvm_memory_max_bytes{area="heap",id="G1 Survivor Space"} -1.0
+jvm_memory_max_bytes{area="nonheap",id="CodeCache"} 5.0331648E7
+jvm_memory_max_bytes{area="nonheap",id="Compressed Class Space"} 1.073741824E9
+jvm_memory_max_bytes{area="nonheap",id="Metaspace"} -1.0
+# HELP jvm_memory_usage_after_gc The percentage of long-lived heap pool used after the last GC event, in the range [0..1]
+# TYPE jvm_memory_usage_after_gc gauge
+jvm_memory_usage_after_gc{area="heap",pool="long-lived"} 0.0038887799286054284
+# HELP jvm_memory_used_bytes The amount of used memory
+# TYPE jvm_memory_used_bytes gauge
+jvm_memory_used_bytes{area="heap",id="G1 Eden Space"} 2.097152E7
+jvm_memory_used_bytes{area="heap",id="G1 Old Gen"} 3.306184E7
+jvm_memory_used_bytes{area="heap",id="G1 Survivor Space"} 1355960.0
+jvm_memory_used_bytes{area="nonheap",id="CodeCache"} 9435392.0
+jvm_memory_used_bytes{area="nonheap",id="Compressed Class Space"} 9180656.0
+jvm_memory_used_bytes{area="nonheap",id="Metaspace"} 6.282404E7
+# HELP jvm_threads_daemon_threads The current number of live daemon threads
+# TYPE jvm_threads_daemon_threads gauge
+jvm_threads_daemon_threads 57.0
+# HELP jvm_threads_live_threads The current number of live threads including both daemon and non-daemon threads
+# TYPE jvm_threads_live_threads gauge
+jvm_threads_live_threads 62.0
+# HELP jvm_threads_peak_threads The peak live thread count since the Java virtual machine started or peak was reset
+# TYPE jvm_threads_peak_threads gauge
+jvm_threads_peak_threads 69.0
+# HELP jvm_threads_started_threads_total The total number of application threads started in the JVM
+# TYPE jvm_threads_started_threads_total counter
+jvm_threads_started_threads_total 73.0
+# HELP jvm_threads_states_threads The current number of threads
+# TYPE jvm_threads_states_threads gauge
+jvm_threads_states_threads{state="blocked"} 0.0
+jvm_threads_states_threads{state="new"} 0.0
+jvm_threads_states_threads{state="runnable"} 10.0
+jvm_threads_states_threads{state="terminated"} 0.0
+jvm_threads_states_threads{state="timed-waiting"} 29.0
+jvm_threads_states_threads{state="waiting"} 23.0
+# HELP logback_events_total Number of log events that were enabled by the effective log level
+# TYPE logback_events_total counter
+logback_events_total{level="debug"} 0.0
+logback_events_total{level="error"} 0.0
+logback_events_total{level="info"} 5.0
+logback_events_total{level="trace"} 0.0
+logback_events_total{level="warn"} 0.0
+# HELP process_cpu_time_ns_total The "cpu time" used by the Java Virtual Machine process
+# TYPE process_cpu_time_ns_total counter
+process_cpu_time_ns_total 5.1359375E10
+# HELP process_cpu_usage The "recent cpu usage" for the Java Virtual Machine process
+# TYPE process_cpu_usage gauge
+process_cpu_usage -1.0
+# HELP process_start_time_seconds Start time of the process since unix epoch.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.790687369714E9
+# HELP process_uptime_seconds The uptime of the Java virtual machine
+# TYPE process_uptime_seconds gauge
+process_uptime_seconds 118.833
+# HELP resilience4j_circuitbreaker_buffered_calls The number of buffered successful calls stored in the ring buffer
+# TYPE resilience4j_circuitbreaker_buffered_calls gauge
+resilience4j_circuitbreaker_buffered_calls{kind="failed",name="inventoryService"} 0.0
+resilience4j_circuitbreaker_buffered_calls{kind="successful",name="inventoryService"} 10.0
+# HELP resilience4j_circuitbreaker_calls_seconds Total number of calls which failed but the exception was ignored
+# TYPE resilience4j_circuitbreaker_calls_seconds summary
+resilience4j_circuitbreaker_calls_seconds_count{kind="failed",name="inventoryService"} 6
+resilience4j_circuitbreaker_calls_seconds_sum{kind="failed",name="inventoryService"} 0.148078
+resilience4j_circuitbreaker_calls_seconds_count{kind="ignored",name="inventoryService"} 0
+resilience4j_circuitbreaker_calls_seconds_sum{kind="ignored",name="inventoryService"} 0.0
+resilience4j_circuitbreaker_calls_seconds_count{kind="successful",name="inventoryService"} 1696
+resilience4j_circuitbreaker_calls_seconds_sum{kind="successful",name="inventoryService"} 322.3730662
+# HELP resilience4j_circuitbreaker_calls_seconds_max Total number of calls which failed but the exception was ignored
+# TYPE resilience4j_circuitbreaker_calls_seconds_max gauge
+resilience4j_circuitbreaker_calls_seconds_max{kind="failed",name="inventoryService"} 0.029238
+resilience4j_circuitbreaker_calls_seconds_max{kind="ignored",name="inventoryService"} 0.0
+resilience4j_circuitbreaker_calls_seconds_max{kind="successful",name="inventoryService"} 1.0271789
+# HELP resilience4j_circuitbreaker_failure_rate The failure rate of the circuit breaker
+# TYPE resilience4j_circuitbreaker_failure_rate gauge
+resilience4j_circuitbreaker_failure_rate{name="inventoryService"} 0.0
+# HELP resilience4j_circuitbreaker_not_permitted_calls_total Total number of not permitted calls
+# TYPE resilience4j_circuitbreaker_not_permitted_calls_total counter
+resilience4j_circuitbreaker_not_permitted_calls_total{kind="not_permitted",name="inventoryService"} 604.0
+# HELP resilience4j_circuitbreaker_slow_call_rate The slow call of the circuit breaker
+# TYPE resilience4j_circuitbreaker_slow_call_rate gauge
+resilience4j_circuitbreaker_slow_call_rate{name="inventoryService"} 0.0
+# HELP resilience4j_circuitbreaker_slow_calls The number of slow successful which were slower than a certain threshold
+# TYPE resilience4j_circuitbreaker_slow_calls gauge
+resilience4j_circuitbreaker_slow_calls{kind="failed",name="inventoryService"} 0.0
+resilience4j_circuitbreaker_slow_calls{kind="successful",name="inventoryService"} 0.0
+# HELP resilience4j_circuitbreaker_state The states of the circuit breaker
+# TYPE resilience4j_circuitbreaker_state gauge
+resilience4j_circuitbreaker_state{name="inventoryService",state="closed"} 1.0
+resilience4j_circuitbreaker_state{name="inventoryService",state="disabled"} 0.0
+resilience4j_circuitbreaker_state{name="inventoryService",state="forced_open"} 0.0
+resilience4j_circuitbreaker_state{name="inventoryService",state="half_open"} 0.0
+resilience4j_circuitbreaker_state{name="inventoryService",state="metrics_only"} 0.0
+resilience4j_circuitbreaker_state{name="inventoryService",state="open"} 0.0
+# HELP resilience4j_retry_calls_total The number of failed calls without a retry attempt
+# TYPE resilience4j_retry_calls_total counter
+resilience4j_retry_calls_total{kind="failed_with_retry",name="inventoryService"} 0.0
+resilience4j_retry_calls_total{kind="failed_without_retry",name="inventoryService"} 604.0
+resilience4j_retry_calls_total{kind="successful_with_retry",name="inventoryService"} 0.0
+resilience4j_retry_calls_total{kind="successful_without_retry",name="inventoryService"} 1696.0
+# HELP system_cpu_count The number of processors available to the Java virtual machine
+# TYPE system_cpu_count gauge
+system_cpu_count 12.0
+# HELP system_cpu_usage The "recent cpu usage" of the system the application is running in
+# TYPE system_cpu_usage gauge
+system_cpu_usage -1.0
+# HELP tomcat_sessions_active_current_sessions  
+# TYPE tomcat_sessions_active_current_sessions gauge
+tomcat_sessions_active_current_sessions 0.0
+# HELP tomcat_sessions_active_max_sessions  
+# TYPE tomcat_sessions_active_max_sessions gauge
+tomcat_sessions_active_max_sessions 0.0
+# HELP tomcat_sessions_alive_max_seconds  
+# TYPE tomcat_sessions_alive_max_seconds gauge
+tomcat_sessions_alive_max_seconds 0.0
+# HELP tomcat_sessions_created_sessions_total  
+# TYPE tomcat_sessions_created_sessions_total counter
+tomcat_sessions_created_sessions_total 0.0
+# HELP tomcat_sessions_expired_sessions_total  
+# TYPE tomcat_sessions_expired_sessions_total counter
+tomcat_sessions_expired_sessions_total 0.0
+# HELP tomcat_sessions_rejected_sessions_total  
+# TYPE tomcat_sessions_rejected_sessions_total counter
+tomcat_sessions_rejected_sessions_total 0.0

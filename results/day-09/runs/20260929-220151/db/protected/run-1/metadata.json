@@ -1,0 +1,11 @@
+﻿{
+    "scenario":  "db-concurrency",
+    "variant":  "protected",
+    "run":  1,
+    "simulationStart":  "2026-09-29T19:02:57.4857982+00:00",
+    "loadStart":  "2026-09-29T19:02:59.4857982+00:00",
+    "simulationEnd":  "2026-09-29T19:03:10.2514767+00:00",
+    "otelEnabled":  false,
+    "configuredRequests":  1000,
+    "concurrency":  100
+}

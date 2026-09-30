@@ -1,0 +1,11 @@
+﻿{
+    "scenario":  "context-access",
+    "variant":  "threadlocal",
+    "run":  5,
+    "simulationStart":  "2026-09-28T21:45:34.3161603+00:00",
+    "loadStart":  "2026-09-28T21:45:36.3161603+00:00",
+    "simulationEnd":  "2026-09-28T21:45:37.8426996+00:00",
+    "otelEnabled":  false,
+    "configuredRequests":  10000,
+    "concurrency":  100
+}
