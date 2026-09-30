@@ -1,0 +1,1 @@
+timestamp_utc,service,heap_used_mb,gc_overhead_pct,jvm_threads_live,hikari_active,hikari_pending,process_cpu_time_ns,cpu_count

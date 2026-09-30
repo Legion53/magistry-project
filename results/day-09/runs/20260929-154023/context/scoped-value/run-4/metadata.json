@@ -1,0 +1,11 @@
+﻿{
+    "scenario":  "context-access",
+    "variant":  "scoped-value",
+    "run":  4,
+    "simulationStart":  "2026-09-29T13:05:35.8149764+00:00",
+    "loadStart":  "2026-09-29T13:05:37.8149764+00:00",
+    "simulationEnd":  "2026-09-29T13:05:40.6362288+00:00",
+    "otelEnabled":  false,
+    "configuredRequests":  10000,
+    "concurrency":  100
+}

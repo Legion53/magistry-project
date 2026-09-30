@@ -1,0 +1,15 @@
+﻿{
+    "run":  3,
+    "otelEnabled":  true,
+    "simulationStart":  "2026-09-29T13:12:04.1581830+00:00",
+    "loadStart":  "2026-09-29T13:12:06.1581830+00:00",
+    "delayRequestedAt":  "2026-09-29T13:12:21.1581830+00:00",
+    "delayAppliedAt":  "2026-09-29T13:12:21.9708702+00:00",
+    "connectionResetRequestedAt":  "2026-09-29T13:12:36.1581830+00:00",
+    "connectionResetAppliedAt":  "2026-09-29T13:12:36.9296086+00:00",
+    "restoreRequestedAt":  "2026-09-29T13:12:51.1581830+00:00",
+    "restoredAt":  "2026-09-29T13:12:51.8346431+00:00",
+    "simulationEnd":  "2026-09-29T13:13:36.6671807+00:00",
+    "rps":  20,
+    "durationSeconds":  90
+}

@@ -1,0 +1,11 @@
+﻿{
+    "scenario":  "db-concurrency",
+    "variant":  "baseline",
+    "run":  1,
+    "simulationStart":  "2026-09-29T18:32:10.8516951+00:00",
+    "loadStart":  "2026-09-29T18:32:12.8516951+00:00",
+    "simulationEnd":  "2026-09-29T18:32:23.5725341+00:00",
+    "otelEnabled":  false,
+    "configuredRequests":  1000,
+    "concurrency":  100
+}

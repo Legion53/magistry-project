@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/thesis_inventory
+    username: thesis
+    password: 12345678
+    hikari:
+      maximum-pool-size: 10
+      connection-timeout: 30000
+
+experiment:
+  concurrency-limit: ${EXPERIMENT_CONCURRENCY_LIMIT:-1}
