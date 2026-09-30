@@ -1,2 +1,0 @@
-﻿"Variant","TotalRequests","Concurrency","ThroughputRps","P50_ms","P95_ms","P99_ms","HeapUsed_MB","CpuTime"
-"otel-on","10000","200","591,63","17,61","56,06","92,06","N/A","N/A"
